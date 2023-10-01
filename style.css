@@ -39,6 +39,15 @@ body{
     background-position: 0 0;
     color:#333;
   }
+  .active{
+	background-color: #F3BDB6 !important;
+	border-radius: 20px 0px;
+	padding: 7px !important;
+  }
+  .navbar-expand-sm .navbar-nav{
+	column-gap: 10px;
+  }
+  
   .about_us{
     background-color: #FED2CC;
     border-radius: 18px;
@@ -261,13 +270,21 @@ h2::after {
 }
 .carousel .wish-icon .fa-heart {
 	color: #ff6161;
-}
+}  
 .star-rating li {
 	padding: 0;
 }
 .star-rating i {
 	font-size: 14px;
 	color: #ffc000;
+}
+.i1{
+	font-size: 30px;
+	color:#FED2CC ;
+	margin-top: 3px;
+}
+.form-control{
+	border: 3px solid #FED2CC !important;
 }
 
 .carousel{
@@ -277,12 +294,49 @@ h2::after {
 	background-position: 0 0;
 	color: #333;
   }
+  .pink{
+	background-color: #FED2CC !important;
+	border: 1px solid #FED2CC !important;
+  }
+  .pink:hover{
+	background-color: #fff !important;
+	border: 4px solid #FED2CC !important;
+
+  }
+  .ccc3{
+	border: 3px solid #FED2CC;
+	border-radius: 15px 0;
+  }
+  .vasanth{
+	text-align: end;
+  }
+ .cpbg{
+	border-top: 3px solid #FED2CC;
+	border-bottom: 3px solid #FED2CC;
+	padding: 10px;
+ }
   
   @media only screen and (max-width: 768px){
+	.z6{
+		margin-top:30px !important;
+	 }
 	.carousel-inner{
 		height: 200px;
 	}
-	.
+	.ccc3{
+		width: 100% !important;
+	}
+	.wor{
+		margin-left: 18% !important;
+	}
+	.vasanth{
+		text-align: center !important;
+		
+		
+	}
+	.cp{
+		text-align: center !important;
+	}
   }
 
   
