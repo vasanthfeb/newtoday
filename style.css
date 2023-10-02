@@ -39,11 +39,11 @@ body{
     background-position: 0 0;
     color:#333;
   }
-  .active{
+  /* .active{
 	background-color: #F3BDB6 !important;
 	border-radius: 20px 0px;
 	padding: 7px !important;
-  }
+  } */
   .navbar-expand-sm .navbar-nav{
 	column-gap: 10px;
   }
@@ -78,7 +78,7 @@ h1:before{
     height: 1px;
     bottom: 0;
     left: 25%;
-    border-bottom: 1px solid rgb(206, 172, 172);
+    border-bottom: 3px solid rgb(206, 172, 172);
 }
 /* .col-lg-6.vas{
   background-color: rgb(227, 179, 179) !important;
@@ -220,9 +220,13 @@ h2::after {
 	border-radius: 4px;
 	opacity: 0.8;
 }
-.carousel-control-prev:hover, .carousel-control-next:hover {
-	background: #78bf00;
-	opacity: 1;
+.carousel-control-prev-icon{
+	background-color: #FED2CC;
+	border: 2px solid #ffa599;
+}
+.carousel-control-next-icon{
+	background-color: #FED2CC;
+	border: 2px solid #ffa599;
 }
 .carousel-control-prev i, .carousel-control-next i {
 	font-size: 36px;
@@ -315,6 +319,7 @@ h2::after {
 	border-bottom: 3px solid #FED2CC;
 	padding: 10px;
  }
+ 
   
   @media only screen and (max-width: 768px){
 	.z6{
@@ -327,7 +332,8 @@ h2::after {
 		width: 100% !important;
 	}
 	.wor{
-		margin-left: 18% !important;
+		padding-left: 20%;
+		padding-right: 20%;
 	}
 	.vasanth{
 		text-align: center !important;
