@@ -1,0 +1,90 @@
+[1mdiff --git a/contact.html b/contact.html[m
+[1mindex 64310d5..2ca0a50 100644[m
+[1m--- a/contact.html[m
+[1m+++ b/contact.html[m
+[36m@@ -90,7 +90,7 @@[m
+         <div class="container text-center mb-5">[m
+           [m
+         <h1 class="mt-5">Contact Us</h1>[m
+[31m-       <form action="">[m
+[32m+[m[32m       <form action="" class="zero">[m
+         <div class="row cg-3">[m
+           <div class="col-lg-6 mt-5">[m
+             <img src="./img/slid/pa.jpg" alt="" class="ccc3">[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 1ac1439..4099879 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -84,7 +84,7 @@[m
+     [m
+    <div class="container-fluid">[m
+       <div class="row mt-3">[m
+[31m-        <div class="col-lg-3">[m
+[32m+[m[32m        <div class="col-lg-3 mt-5">[m
+           <div class="about_us" id="aboutt">[m
+             <h3 class="about_us_text">About Us</h3>[m
+             <p class="c2">Arts of joy is fully Customised and handmade gifts items in affortable price and with super quality . We are not reselling any products . Our each and ever products are handmade with attractive colours and unique desingns . It will be worth of money. Shipping all over India and Fast shipping process. Our gift items starts from ₹70 only .Cute Miniature gifts items with lowest price with personalized custom Designs in reasonable price. We have Resin gifts ,cute bottle gifts, pencil carving, customised scrapbook books,pop up box , explosion box,cute combo gifts , Customised photo frames . suprise your Loved ones with our Customised gifts</p>[m
+[36m@@ -218,8 +218,7 @@[m
+           </div>[m
+           <div class="col-lg-3">[m
+             <div class="card" style="width: 18rem;">[m
+[31m-              <img src="./products/img/round.jpg" class="card-img-to[m
+[31m-              p" alt="...">[m
+[32m+[m[32m              <img src="./products/img/round.jpg" class="card-img-top" alt="...">[m
+               <div class="card-body">[m
+                 <h5 class="card-title">Circle Name board</h5>[m
+                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->[m
+[1mdiff --git a/products.html b/products.html[m
+[1mindex 7f49b9e..a8d2423 100644[m
+[1m--- a/products.html[m
+[1m+++ b/products.html[m
+[36m@@ -192,6 +192,26 @@[m
+               </div>[m
+             </div>[m
+           </div>[m
+[32m+[m[32m          <div class="col-lg-3">[m
+[32m+[m[32m            <div class="card" style="width: 18rem;">[m
+[32m+[m[32m              <img src="./products/img/vas.jpg" class="card-img-top" alt="...">[m
+[32m+[m[32m              <div class="card-body">[m
+[32m+[m[32m                <h5 class="card-title">Customised shadow box</h5>[m
+[32m+[m[32m                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->[m
+[32m+[m[32m                <a href="#" class="btn btn-primary mt-2">View Prodects</a>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <div class="col-lg-3">[m
+[32m+[m[32m            <div class="card" style="width: 18rem;">[m
+[32m+[m[32m              <img src="./products/img/kum.jpg" class="card-img-top" alt="...">[m
+[32m+[m[32m              <div class="card-body">[m
+[32m+[m[32m                <h5 class="card-title">Stting art</h5>[m
+[32m+[m[32m                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->[m
+[32m+[m[32m                <a href="#" class="btn btn-primary mt-2">View Prodects</a>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+           [m
+           <div class="col-lg-6 vas">[m
+ [m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex 544c56b..2d7c8d5 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -47,11 +47,17 @@[m [mbody{[m
+   .navbar-expand-sm .navbar-nav{[m
+ 	column-gap: 10px;[m
+   }[m
+[31m-  [m
+[32m+[m[32m  .zero{[m
+[32m+[m	[32mheight: 60vh;[m
+[32m+[m[41m	[m
+[32m+[m[32m  }[m
+   .about_us{[m
+     background-color: #FED2CC;[m
+     border-radius: 18px;[m
+     padding: 18px;[m
+[32m+[m	[32mmax-height: 600px;[m
+[32m+[m[32m  line-height: 30px;[m
+[32m+[m[32m  font-weight: 600;[m
+   }[m
+   .about_us_text{[m
+     text-align: center;[m

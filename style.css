@@ -47,11 +47,17 @@ body{
   .navbar-expand-sm .navbar-nav{
 	column-gap: 10px;
   }
-  
+  .zero{
+	height: 60vh;
+	
+  }
   .about_us{
     background-color: #FED2CC;
     border-radius: 18px;
     padding: 18px;
+	max-height: 600px;
+  line-height: 30px;
+  font-weight: 600;
   }
   .about_us_text{
     text-align: center;
