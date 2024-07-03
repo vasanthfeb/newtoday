@@ -11,8 +11,8 @@ body{
     background-color:#fbf9f7 !important;
 }
 .logo{
-    width: 80px !important;
-    height: 80px !important;
+    width: 100px !important;
+    height: auto !important;
 }
 .nav-link{
     color:black !important;
@@ -39,11 +39,11 @@ body{
     background-position: 0 0;
     color:#333;
   }
-  /* .active{
+  .activee{
 	background-color: #F3BDB6 !important;
 	border-radius: 20px 0px;
 	padding: 7px !important;
-  } */
+  }
   .navbar-expand-sm .navbar-nav{
 	column-gap: 10px;
   }
@@ -357,7 +357,7 @@ img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    filter: grayscale(70%);
+    /* filter: grayscale(70%); */
     border-radius: 7px;
 }
 
